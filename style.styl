@@ -1,0 +1,79 @@
+@import 'stylus/reset.styl'
+@import 'stylus/vars.styl'
+
+section-color-state($color)
+  background $color
+  &:hover
+    background darken($color, 10%)
+  &:not(:last-child)
+    &:after
+      border-left-color $color
+    &:hover:after
+      border-left-color darken($color, 10%)
+
+
+
+body
+  background #424242
+  font-family 'Montserrat', sans-serif
+  h1, h2
+    color #fff
+    text-align center
+  h1
+    font-size 2rem
+    margin-bottom $space
+    font-weight 400
+  a
+    color primary
+
+.app-container
+  padding $space * 3
+
+.board
+  position relative
+  padding $space
+  background-color background-board
+  font-size 0
+  transform perspective(1000px) rotateX(30deg)
+  &:not(:last-child)
+    margin-bottom $space
+
+  section
+    section-color-state(background-default)
+    width size
+    padding 10px 0
+    min-width 120px
+    height 100px
+    display inline-block
+    text-align center
+    cursor pointer
+    position relative
+    font-size $space
+
+    .place, .price
+      font-size .75rem
+    .fa
+      font-size 2.5rem
+      padding $space 0
+
+    &:not(:last-child):after
+      border-left size-arrow solid background-default
+      border-top size-arrow solid transparent
+      border-bottom size-arrow solid transparent
+      content ''
+      position absolute
+      right - size-arrow
+      top 50%
+      transform translateY(-50%)
+      z-index 10
+
+    &:nth-child(odd)
+      section-color-state(darken(background-default, 20%))
+    &.active
+      section-color-state(background-active)
+    &.start
+      section-color-state(background-start)
+    &.end
+      section-color-state(background-end)
+    &.danger
+      section-color-state(background-danger)
