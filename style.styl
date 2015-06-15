@@ -34,9 +34,10 @@ body
   padding $space
   background-color background-board
   font-size 0
-  transform perspective(1000px) rotateX(30deg)
+  transform perspective(1000px) rotateX(30deg) 
   &:not(:last-child)
     margin-bottom $space
+    
 
   section
     section-color-state(background-default)
@@ -44,11 +45,11 @@ body
     padding 10px 0
     min-width 120px
     height 100px
-    display inline-block
+    display: inline-block
     text-align center
-    cursor pointer
+    cursor: pointer
     position relative
-    font-size $space
+    font-size size
 
     .place, .price
       font-size .75rem
@@ -77,3 +78,15 @@ body
       section-color-state(background-end)
     &.danger
       section-color-state(background-danger)
+      
+.vertical2
+  background-color red
+  transform: rotate(90deg)
+  position: absolute;
+  top: 400px;
+  right: -250px
+  
+
+
+
+
