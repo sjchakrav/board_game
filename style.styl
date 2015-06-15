@@ -1,5 +1,6 @@
 @import 'stylus/reset.styl'
 @import 'stylus/vars.styl'
+@import 'stylus/mixins.styl'
 
 section-color-state($color)
   background $color
@@ -7,11 +8,9 @@ section-color-state($color)
     background darken($color, 10%)
   &:not(:last-child)
     &:after
-      border-left-color $color
+      border-color $color
     &:hover:after
-      border-left-color darken($color, 10%)
-
-
+      border-color darken($color, 10%)
 
 body
   background #424242
@@ -30,22 +29,66 @@ body
   padding $space * 3
 
 .board
-  position relative
-  padding $space
-  background-color background-board
-  font-size 0
-  transform perspective(1000px) rotateX(30deg) 
-  &:not(:last-child)
-    margin-bottom $space
-    
+  /*background gray*/
+  border $space solid background-board
+  transform perspective(2000px) rotateX(40deg) translateY(-200px)
+  width 80%
+  margin-left auto
+  margin-right auto
+  border-radius 50px
+  overflow hidden
+
+  .side, .top, .bottom
+    position relative
+    /*padding $space*/
+    background-color background-board
+    font-size 0
+  .top, .bottom
+    section
+      display: inline-block
+      width size
+      &:not(:last-child):after
+        border-left size-arrow solid background-default
+        border-top size-arrow solid transparent !important
+        border-bottom size-arrow solid transparent !important
+        border-right none !important
+        right - size-arrow
+        top 50%
+        transform translateY(-50%)
+  .top
+   border-bottom $space solid background-board
+  .bottom
+   border-top $space solid background-board
+   margin-top - $space
+  .sides
+    clearfix()
+    margin-top - $space
+    position relative
+    z-index 1
+
+  .side
+    &.left
+      float left
+      border-right $space solid background-board
+    &.right
+      border-left $space solid background-board
+      float right
+      section
+        &:not(:last-child):after
+          border-top size-arrow solid background-default
+          border-left size-arrow solid transparent !important
+          border-right size-arrow solid transparent !important
+          border-bottom none !important
+          bottom - size-arrow
+          left 50%
+          transform translateX(-50%)
+
 
   section
     section-color-state(background-default)
-    width size
     padding 10px 0
     min-width 120px
     height 100px
-    display: inline-block
     text-align center
     cursor: pointer
     position relative
@@ -58,14 +101,8 @@ body
       padding $space 0
 
     &:not(:last-child):after
-      border-left size-arrow solid background-default
-      border-top size-arrow solid transparent
-      border-bottom size-arrow solid transparent
       content ''
       position absolute
-      right - size-arrow
-      top 50%
-      transform translateY(-50%)
       z-index 10
 
     &:nth-child(odd)
@@ -78,7 +115,7 @@ body
       section-color-state(background-end)
     &.danger
       section-color-state(background-danger)
-      
+
 .vertical2
   background-color red
   transform: rotate(90deg)
