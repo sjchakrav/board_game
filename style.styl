@@ -1,17 +1,27 @@
+
 @import 'stylus/reset.styl'
 @import 'stylus/vars.styl'
 @import 'stylus/mixins.styl'
+
 
 section-color-state($color)
   background $color
   &:hover
     background darken($color, 10%)
   &:not(:last-child)
+    // after color does not work for right side of board
     &:after
       border-color $color
     &:hover:after
       border-color darken($color, 10%)
-
+  &:not(:first-child)
+    // before color does not work for left side of board
+    &:before 
+      border-color $color
+    // hover before works for left side of board
+    &:hover:before
+      border-color darken($color, 10%)
+      
 body
   background #424242
   font-family 'Montserrat', sans-serif
@@ -22,8 +32,6 @@ body
     font-size 2rem
     margin-bottom $space
     font-weight 400
-  a
-    color primary
 
 .app-container
   padding $space * 3
@@ -43,23 +51,43 @@ body
     /*padding $space*/
     background-color background-board
     font-size 0
+  
+  // Top and bottom side display
   .top, .bottom
     section
       display: inline-block
       width size
+      
+  // Top side arrow formation
+  .top
+    section
       &:not(:last-child):after
-        border-left size-arrow solid background-default
-        border-top size-arrow solid transparent !important
-        border-bottom size-arrow solid transparent !important
-        border-right none !important
-        right - size-arrow
-        top 50%
-        transform translateY(-50%)
+          border-left size-arrow solid background-default
+          border-top size-arrow solid transparent !important
+          border-bottom size-arrow solid transparent !important
+          border-right none !important
+          right - size-arrow
+          top 50%
+          transform translateY(-50%)
+  // Bottom side arrow formation 
+  .bottom
+      section
+        &:not(:first-child):before
+          border-left none !important
+          border-top size-arrow solid transparent !important
+          border-bottom size-arrow solid transparent !important
+          border-right size-arrow solid background-default
+          left - 20px
+          top 50%
+          transform translateY(-50%)
+
+           
   .top
    border-bottom $space solid background-board
   .bottom
    border-top $space solid background-board
    margin-top - $space
+
   .sides
     clearfix()
     margin-top - $space
@@ -68,22 +96,32 @@ body
 
   .side
     &.left
-      float left
       border-right $space solid background-board
+      float left
+      // arrow formation pointing upwards for left side of board
+      section
+        &:not(:first-child):before
+          border-bottom size-arrow solid background-default 
+          border-top size-arrow solid transparent background-default
+          border-left size-arrow solid transparent !important
+          border-right size-arrow solid transparent !important
+          left 50%
+          top - 15%
+          transform translateX(-50%)
+     
     &.right
       border-left $space solid background-board
       float right
       section
         &:not(:last-child):after
-          border-top size-arrow solid background-default
+          border-top size-arrow solid background-default 
           border-left size-arrow solid transparent !important
           border-right size-arrow solid transparent !important
           border-bottom none !important
           bottom - size-arrow
           left 50%
           transform translateX(-50%)
-
-
+      
   section
     section-color-state(background-default)
     padding 10px 0
@@ -104,11 +142,28 @@ body
       content ''
       position absolute
       z-index 10
-
+      
+    &:last-child:before
+      content ''
+      position absolute
+      z-index 1
+      
+    // Added content property to be able to add something before all elements 
+    // that are not the first child
+    &:not(:first-child):before
+      content ''
+      position absolute
+      z-index 1
+          
+    // IMPORTANT QS FOR JACE
+    // QS: If i add the !important for nth-child,
+    // !important seems to not work since the first top side tile, changes from black 
+    // to blue and it is overwritten by &.active
+      
     &:nth-child(odd)
       section-color-state(darken(background-default, 20%))
     &.active
-      section-color-state(background-active)
+      section-color-state(background-active) 
     &.start
       section-color-state(background-start)
     &.end
@@ -116,13 +171,8 @@ body
     &.danger
       section-color-state(background-danger)
 
-.vertical2
-  background-color red
-  transform: rotate(90deg)
-  position: absolute;
-  top: 400px;
-  right: -250px
-  
+      
+
 
 
 
