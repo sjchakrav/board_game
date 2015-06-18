@@ -1,24 +1,20 @@
 html
   head
-    link(rel='StyleSheet', href='style.css', type='text/css', media='screen')
     link(href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css', rel='stylesheet')
+    link(rel='StyleSheet', href='style.css', type='text/css', media='screen')
     link(href='http://fonts.googleapis.com/css?family=Montserrat', rel='stylesheet', type='text/css')
+
+    script(src = 'http://code.jquery.com/jquery-2.1.4.min.js')
   body
     .app-container
       h1 Your first 90 Days with RMS
       .board
         // Top Row
         .top
-          section.active.right
+          section.active.right(data-id="dayOneHoliday")
             .place Day 1
             i.fa.fa-arrow-right
             .price 2015 Company Holidays
-            script(type="text/javascript").
-              $(document).ready(function(){
-                $("").click(function(){
-                  alert("test");
-                });
-              });
           section.right
             .place Day 1
             i.fa.fa-money
@@ -102,3 +98,9 @@ html
             .place Month 1
             i.fa.fa-trophy
             .price US Benefits Enrollment
+      .modal
+        .modal-content Hello! This is an awesome model message.
+
+
+
+    script(src = 'js/app.js')
