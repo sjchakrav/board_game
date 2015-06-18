@@ -15,11 +15,6 @@
         $('.modal').hide()
   }
 
-
-
-
-
-
   $(document).ready ->
     $('section').on 'click', app.modal
 
