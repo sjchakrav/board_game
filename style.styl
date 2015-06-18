@@ -35,6 +35,8 @@ body
 
 .app-container
   padding $space * 3
+  position relative
+  min-width 1100px
 
 .board
   /*background gray*/
@@ -171,7 +173,35 @@ body
     &.danger
       section-color-state(background-danger)
 
-      
+
+.vertical2
+  background-color red
+  transform: rotate(90deg)
+  position: absolute;
+  top: 400px;
+  right: -250px
+
+
+.modal
+  display none
+  position absolute
+  top 0
+  right 0
+  left 0
+  bottom 0
+
+.modal-content
+  position absolute
+  top 6rem
+  left 50%
+  width 40%
+  transform translateX(-50%)
+  background white
+  height 50%
+  padding $space
+
+  //Make pretty and make it animate in/out of view with css
+
 
 
 
