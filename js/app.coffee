@@ -1,9 +1,9 @@
 (($) ->
   app = {
     content:
-      dayOneHoliday:
+      dayOneWelcome:
         videoUrl: 'https://www.youtube.com/watch?v=Sppxdd4vvKY'
-        content: '<h1>Awesome header</h1><p>This is a really great sentence.</p>'
+        content: '<h1>Awesome header</h1><p><</p>'
     modal: (e) ->
       $this = $(e.currentTarget)
       sectionId = $this.data('id')
