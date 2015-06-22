@@ -11,13 +11,15 @@ section-color-state($color)
   &:not(:last-child)
     // after color does not work for right side of board
     &:after
-      border-color $color
+      border-color white
+      // border-color $color
     &:hover:after
       border-color darken($color, 10%)
   &:not(:first-child)
     // before color does not work for left side of board
     &:before 
-      border-color $color
+      border-color white
+      // border-color $color
     // hover before works for left side of board
     &:hover:before
       border-color darken($color, 10%)
@@ -203,7 +205,7 @@ body
   padding $space
   // For background image, store file in an img folder or get img from inside rms
   // background: url(http://www.executive-i.com/picstore/hh/15_Risk%20Management%20Solutions%20jobs.jpg) no-repeat center
-  background-color white
+  background-color #adafb2
 
   //Make pretty and make it animate in/out of view with css
     
