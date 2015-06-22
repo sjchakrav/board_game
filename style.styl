@@ -3,38 +3,29 @@
 @import 'stylus/vars.styl'
 @import 'stylus/mixins.styl'
 
-
 section-color-state($color)
-  background $color
+  transition background .125s linear
+  background lighten($color, 40%)
+  border 2px solid $color
   &:hover
-    background white
-    // background darken($color, 10%)
-  &:not(:last-child)
-    // after color does not work for right side of board
-    &:after
-      border-color white
-      // border-color $color
-    &:hover:after
-      border-color darken($color, 10%)
-  &:not(:first-child)
-    // before color does not work for left side of board
-    &:before 
-      border-color white
-      // border-color $color
-    // hover before works for left side of board
-    &:hover:before
-      border-color darken($color, 10%)
+    background lighten($color, 80%)
+  &:active
+    background darken($color, 10%)
+    color white
+
+  .fa
+    color darken($color, 40%)
       
 body
-  background white
+  background #e2e2e2
   font-family 'Montserrat', sans-serif
-  h1, h2
-    color #fff
-    text-align center
+
   h1
     font-size 2rem
     margin-bottom $space
     font-weight 400
+    color #333
+    text-align center
 
 .app-container
   padding $space * 3
@@ -42,148 +33,85 @@ body
   min-width 1100px
 
 .board
-  /*background gray*/
-  border $space solid background-board
-  transform perspective(2000px) rotateX(40deg) translateY(-200px)
-  width 80%
+  border $space-small solid $gray
+  transform perspective(2500px) rotateX(50deg) translateY(-300px)
+  width 90%
   margin-left auto
   margin-right auto
-  border-radius 50px
+  border-radius 3rem
   overflow hidden
+  box-shadow 0 $space-micro $space-micro rgba(black, .3)
 
 
-  .side, .top, .bottom
+  > .side, > .top, > .bottom
     position relative
     /*padding $space*/
-    background-color background-board
-    font-size 0
-  
-  // Top and bottom side display
-  .top, .bottom
-    section
-      display: inline-block
-      width size
-      
-  // Top side arrow formation
-  // .top
-  //   section
-  //     &:not(:last-child):after
-  //         border-left size-arrow solid background-default
-  //         border-top size-arrow solid transparent !important
-  //         border-bottom size-arrow solid transparent !important
-  //         border-right none !important
-  //         right - size-arrow
-  //         top 50%
-  //         transform translateY(-50%)
-  // // Bottom side arrow formation 
-  // .bottom
-  //     section
-  //       &:not(:first-child):before
-  //         border-left none !important
-  //         border-top size-arrow solid transparent !important
-  //         border-bottom size-arrow solid transparent !important
-  //         border-right size-arrow solid background-default
-  //         left - 20px
-  //         top 50%
-  //         transform translateY(-50%)
+    background-color $gray
 
+  // Top and bottom side display
+  > .top, > .bottom
+    clearfix()
+
+    section
+      float left
+      width size
            
-  .top
-   border-bottom $space solid background-board
-  .bottom
-   border-top $space solid background-board
-   margin-top - $space
+  > .top
+   border-bottom $space-small solid $gray
+
+  > .bottom
+   border-top $space-small solid $gray
+   margin-top - $space-small
 
   .sides
     clearfix()
-    margin-top - $space
+    margin-top - $space-small
     position relative
     z-index 1
 
   .side
+    width 20%
     &.left
-      border-right $space solid background-board
+      border-right $space-small solid $gray
       float left
-      // arrow formation pointing upwards for left side of board
-      // section
-      //   &:not(:first-child):before
-      //     border-bottom size-arrow solid background-default 
-      //     border-top size-arrow solid transparent background-default
-      //     border-left size-arrow solid transparent !important
-      //     border-right size-arrow solid transparent !important
-      //     left 50%
-      //     top - 15%
-      //     transform translateX(-50%)
      
     &.right
-      border-left $space solid background-board
+      border-left $space-small solid $gray
       float right
-      // section
-      //   &:not(:last-child):after
-      //     border-top size-arrow solid background-default 
-      //     border-left size-arrow solid transparent !important
-      //     border-right size-arrow solid transparent !important
-      //     border-bottom none !important
-      //     bottom - size-arrow
-      //     left 50%
-      //     transform translateX(-50%)
       
   section
-    section-color-state(background-default)
-    padding 10px 0
-    min-width 120px
-    height 100px
+    box-sizing border-box
+    padding $space $space-small
+    min-width 10rem
+    height 9rem
     text-align center
     cursor: pointer
     position relative
-    font-size size
+    box-shadow inset .1rem .1rem .1rem rgba(black, .2)
 
     .place, .price
       font-size .75rem
+      text-transform uppercase
     .fa
       font-size 2.5rem
       padding $space 0
 
-    &:not(:last-child):after
-      content ''
-      position absolute
-      z-index 10
-      
-    &:last-child:before
-      content ''
-      position absolute
-      z-index 1
-      
-    // Added content property to be able to add something before all elements 
-    // that are not the first child
-    &:not(:first-child):before
-      content ''
-      position absolute
-      z-index 1
-          
-    // IMPORTANT QS FOR JACE
-    // QS: If i add the !important for nth-child,
-    // !important seems to not work since the first top side tile, changes from black 
-    // to blue and it is overwritten by &.active
-      
-    // &:nth-child(odd)
-    //   section-color-state(darken(background-default, 20%))
-    &.active
-      section-color-state(background-active) 
-    &.start
-      section-color-state(background-start)        
-    &.end
-      section-color-state(background-end)
-    &.danger
-      section-color-state(background-danger)
     &.top
-      section-color-state(background-top-color)
+      section-color-state($red)
+      &:first-child
+        border-top-left-radius 3rem
+      &:last-child
+        border-top-right-radius 3rem
     &.right
-      section-color-state(background-right-color)
+      section-color-state($green)
     &.bottom 
-      section-color-state(background-bottom-color)
+      section-color-state($blue)
+      &:first-child
+        border-bottom-left-radius 3rem
+      &:last-child
+        border-bottom-right-radius 3rem
     &.left 
-      section-color-state(background-left-color)
+      section-color-state($orange)
 
 
 .modal
@@ -206,8 +134,9 @@ body
   padding $space
   // For background image, store file in an img folder or get img from inside rms
   // background: url(http://www.executive-i.com/picstore/hh/15_Risk%20Management%20Solutions%20jobs.jpg) no-repeat center
-  background-color #adafb2
+  background-color white
   text-align center
+  box-shadow 0 $space-micro $space-micro rgba(black, .3)
 
   &.p 
     text-align center
@@ -218,10 +147,11 @@ body
 
 .modal-content
   animation-name fadeIn
-  animation-duration 1.5s
+  animation-duration .5s
 
 @keyframes fadeIn
-  from {opacity: 0.5}
+  from
+    opacity 0.5
 
 
 
