@@ -7,7 +7,8 @@
 section-color-state($color)
   background $color
   &:hover
-    background darken($color, 10%)
+    background white
+    // background darken($color, 10%)
   &:not(:last-child)
     // after color does not work for right side of board
     &:after
@@ -64,27 +65,27 @@ body
       width size
       
   // Top side arrow formation
-  .top
-    section
-      &:not(:last-child):after
-          border-left size-arrow solid background-default
-          border-top size-arrow solid transparent !important
-          border-bottom size-arrow solid transparent !important
-          border-right none !important
-          right - size-arrow
-          top 50%
-          transform translateY(-50%)
-  // Bottom side arrow formation 
-  .bottom
-      section
-        &:not(:first-child):before
-          border-left none !important
-          border-top size-arrow solid transparent !important
-          border-bottom size-arrow solid transparent !important
-          border-right size-arrow solid background-default
-          left - 20px
-          top 50%
-          transform translateY(-50%)
+  // .top
+  //   section
+  //     &:not(:last-child):after
+  //         border-left size-arrow solid background-default
+  //         border-top size-arrow solid transparent !important
+  //         border-bottom size-arrow solid transparent !important
+  //         border-right none !important
+  //         right - size-arrow
+  //         top 50%
+  //         transform translateY(-50%)
+  // // Bottom side arrow formation 
+  // .bottom
+  //     section
+  //       &:not(:first-child):before
+  //         border-left none !important
+  //         border-top size-arrow solid transparent !important
+  //         border-bottom size-arrow solid transparent !important
+  //         border-right size-arrow solid background-default
+  //         left - 20px
+  //         top 50%
+  //         transform translateY(-50%)
 
            
   .top
@@ -104,28 +105,28 @@ body
       border-right $space solid background-board
       float left
       // arrow formation pointing upwards for left side of board
-      section
-        &:not(:first-child):before
-          border-bottom size-arrow solid background-default 
-          border-top size-arrow solid transparent background-default
-          border-left size-arrow solid transparent !important
-          border-right size-arrow solid transparent !important
-          left 50%
-          top - 15%
-          transform translateX(-50%)
+      // section
+      //   &:not(:first-child):before
+      //     border-bottom size-arrow solid background-default 
+      //     border-top size-arrow solid transparent background-default
+      //     border-left size-arrow solid transparent !important
+      //     border-right size-arrow solid transparent !important
+      //     left 50%
+      //     top - 15%
+      //     transform translateX(-50%)
      
     &.right
       border-left $space solid background-board
       float right
-      section
-        &:not(:last-child):after
-          border-top size-arrow solid background-default 
-          border-left size-arrow solid transparent !important
-          border-right size-arrow solid transparent !important
-          border-bottom none !important
-          bottom - size-arrow
-          left 50%
-          transform translateX(-50%)
+      // section
+      //   &:not(:last-child):after
+      //     border-top size-arrow solid background-default 
+      //     border-left size-arrow solid transparent !important
+      //     border-right size-arrow solid transparent !important
+      //     border-bottom none !important
+      //     bottom - size-arrow
+      //     left 50%
+      //     transform translateX(-50%)
       
   section
     section-color-state(background-default)
@@ -206,7 +207,10 @@ body
   // For background image, store file in an img folder or get img from inside rms
   // background: url(http://www.executive-i.com/picstore/hh/15_Risk%20Management%20Solutions%20jobs.jpg) no-repeat center
   background-color #adafb2
+  text-align center
 
+  &.p 
+    text-align center
   //Make pretty and make it animate in/out of view with css
     
 
