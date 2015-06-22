@@ -3,8 +3,8 @@
     content:
       dayOneWelcome:
         videoUrl: 'https://www.youtube.com/watch?v=Sppxdd4vvKY'
-        content: '<h1>Awesome header</h1><p><iframe width="420" height="315"
-src="http://www.youtube.com/embed/JS_DjKsx7dU?">
+        content: '<h1>What do you know about RMS?</h1><p><center><iframe width="420" height="315"
+src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
 </iframe></p>'
     modal: (e) ->
       $this = $(e.currentTarget)
