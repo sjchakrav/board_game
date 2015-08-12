@@ -8,11 +8,10 @@ section-color-state($color)
   background lighten($color, 40%)
   border 2px solid $color
   &:hover
-    background lighten($color, 80%)
+    background darken($color, 2%)
   &:active
     background darken($color, 10%)
     color white
-
   .fa
     color darken($color, 40%)
       
@@ -22,7 +21,8 @@ body
 
   .title
     text-align: center;
-    margin: 50px auto;
+    margin-left: -410px;
+    margin-bottom: 30px;
     font-family: Arial, Courier;
     font-size: 50px;
     text-transform: uppercase;
@@ -37,7 +37,7 @@ body
   border $space-small solid $gray
   transform perspective(2500px) rotateX(50deg) translateY(-300px)
   width 90%
-  margin-left auto
+  margin-left -160px
   margin-right auto
   border-radius 3rem
   overflow hidden
@@ -83,7 +83,7 @@ body
   section
     box-sizing border-box
     padding $space $space-small
-    min-width 10rem
+    min-width 8rem
     height 9rem
     text-align center
     cursor: pointer
@@ -113,8 +113,9 @@ body
         border-bottom-right-radius 3rem
     &.left 
       section-color-state($orange)
-
-
+ 
+      
+      
 .modal
   display none
   position absolute
@@ -128,7 +129,7 @@ body
 .modal-content
   position absolute
   top 6rem
-  left 50%
+  left 31%
   width 40%
   transform translateX(-50%)
   height 47%
