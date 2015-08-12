@@ -3,21 +3,19 @@ html
     link(href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css', rel='stylesheet')
     link(rel='StyleSheet', href='style.css', type='text/css', media='screen')
     link(href='http://fonts.googleapis.com/css?family=Montserrat', rel='stylesheet', type='text/css')
-
-    script(src = 'http://code.jquery.com/jquery-2.1.4.min.js')
+    script(src='http://code.jquery.com/jquery-2.1.4.min.js')
   body
     .app-container
       h1.title Life at RMS
       .board
         // Top Row
-        //- FORMS/HR/Policies/Orientation
         .top
-          section.active.top(data-id="dayOneWelcome")
+          section.active.top(data-id='dayOneWelcome')
             .place Welcome
             //- i.fa.fa-arrow-right
             <img class="fa" src="90 Days icons/welcome.png" height="70px">
-            .price Orientation Video
-          section.top(data-id="PSF")
+            //- .price Orientation Video
+          section.top(data-id='PSF')
             .place People Strategy Forms
             //- i.fa.fa-money
             <img class="fa" src="90 Days icons/people strategy forms.png" height="70px">
@@ -37,6 +35,8 @@ html
             //- i.fa.fa-trophy
             <img class="fa" src="90 Days icons/acronyms.png" height="70px">
             .price 
+            i.fa.fa-money
+            .price   
         .sides
           // Right Row
           .side.right
@@ -64,7 +64,7 @@ html
               .place NEW GRAD TRAINING
               //- i.fa.fa-shield
               <img class="fa" src="90 Days icons/New grad training.png" height="70px">
-              .price 
+              .price   
           // Left Row
           .side.left
             section.left
@@ -92,6 +92,8 @@ html
               //- i.fa.fa-shield
               <img class="fa" src="90 Days icons/csr.png" height="70px">
               .price 
+              i.fa.fa-question
+              .price    
         // Top Row
         .bottom
           section.active.bottom
@@ -119,9 +121,8 @@ html
             //- i.fa.fa-trophy
             <img class="fa" src="90 Days icons/employee exp.png" height="70px">
             .price 
+            i.fa.fa-arrow-up
+            .price   
       .modal
         .modal-content Hello! This is an awesome model message.
-
-
-
-    script(src = 'js/app.js')
+    script(src='js/app.js')
