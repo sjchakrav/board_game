@@ -11,6 +11,10 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         <a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Benefits_Enrollment.pdf">Benefits Enrollment</a><br><br>
        <a href="http://insiderms.rms.com/pages/forms.aspx">All Forms</a>
        <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_PTO_Request_Form.pdf">PTO Request Form</a>
+       <br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/RMS-Corporate-Holidays.aspx">RMS Corporate Holidays</a>
+       <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Direct_Deposit_Form.pdf">Direct Deposit Form</a>
+        <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_iPay_Quick_Guide.pdf>iPay Quick Guide</a>
+        <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Newark_New_Badge_Form.pdf">PRC Badge Form</a>
         '
       BusinessCards:
         content: '<h1>Need New Business Cards?</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/Documents/RMS_OnDemand_Branded_Item_Request_Portal_Update.pdf">New Business Cards</a>
@@ -20,6 +24,7 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         '
       Acronyms:
         content: '<h1>RMS Acronyms:<h1><br><br><a href="http://insiderms.rms.com/about-rms/Documents/Style%20Guide%20for%20Written%20Communications.pdf#search=acronyms">Full Acronyms List</a>
+        <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/Global_EAP_and_Platform_Glossary.pdf">RMS Platform Glossary and Library of Acronyms</a>
         '
         #SECTION 2 TRAINING
       LearningCenter:
@@ -46,6 +51,7 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         <br><br><a href="https://www.linkedin.com/company/rms">RMS LinkedIn</a>
         <br><br><a href="https://twitter.com/rms">RMS Twitter</a>
         <br><br><a href="https://twitter.com/rmsjobs">RMS Jobs Twitter</a>
+        <br><br><a href="http://insiderms.rms.com/about-rms/Pages/Locations.aspx">All Locations</a>
         '
       FAQ:
         content:'<h1>FAQ:</h1><br><br><a href="http://insiderms.rms.com/departments/IT/Pages/FAQs.aspx">IT FAQS</a>
