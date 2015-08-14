@@ -58,6 +58,23 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         content:''
 
         #SECTION 4 FACILITIES/LOCATIONS
+      US:
+        content:'<h1>USA Facilities:</h1><br><br><a href="http://insiderms.rms.com/departments/Hoboken/Pages/default.aspx">Hoboken, NJ</a>
+        <br><br><a href="http://insiderms.rms.com/departments/Newark/Pages/Default.aspx">Newark, California</a>
+        <br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Benefit-Resources.aspx">Benefit Resources</a>
+        '
+      UK
+        content:'<h1>UK Facilities:</h1><br><br><a href="http://insiderms.rms.com/departments/london/Pages/default.aspx">London</a>
+        '
+      India:
+        content:'<h1>India Facilities:</h1><br><br><a href="http://insiderms.rms.com/departments/India/Pages/default.aspx">India</a>
+        '
+      Asia:
+        content:'<h1>Asia/Pacific Facilities:</h1><br><br><a href="http://www.rms.com/about/newsroom/press-releases/press-detail/2014-06-10/rms-expands-presence-in-asia-pacific-with-new-singapore-office">Singapore</a>
+        '
+      EE:
+        content:'<h1>Employee Experience:</h1><br><br><a href="http://insiderms.rms.com/Pages/Employee-Experience.aspx">Engagement + Enablement = Employee Experience (EX)</a>
+        '
 
     modal: (e) ->
       $this = $(e.currentTarget)
