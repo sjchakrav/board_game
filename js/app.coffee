@@ -37,19 +37,27 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
 
         #SECTION 3 VIDEOS/OTHER
       Links:
-        content:
+        content:'<h1>Links:</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Referrals.aspx">Employee Referral Page</a>
+        <br><br><a href="http://www.rms.com/blog/">Blog</a>
+        '
       FAQ:
-        content:
+        content:'<h1>FAQ:</h1><br><br><a href="http://insiderms.rms.com/departments/IT/Pages/FAQs.aspx">IT FAQS</a>
+        '
       Vids:
         content:'<h1>Videos and Webinars:</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/Getting_Started_Courses/Intro_to_Insuarance/player.html">Insurance</a>
         <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/Getting_Started_Courses/Introduction_to_Products_at_RMS/player.html">Products</a>
         <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/Getting_Started_Courses/Introduction_to_Reinsurance/player.html">Reinsurance</a>
+        <br><br><a href="https://www.youtube.com/user/RMSconnection/videos">RMS Youtube Channel</a>
+        <br><br><a href="http://www.rms.com/resources/videos">External Videos</a>
         '
       Oracle:
-        content:
+        content:'<h1>Oracle Related Resources:</h1><br><br><a href="http://insiderms.rms.com/departments/IT/Pages/Oracle-Help.aspx">Oracle Help</a>
+        <br><br><a href="oracle/">Oracle</a>
+        '
       CSR:
-        content:
+        content:''
 
+        #SECTION 4 FACILITIES/LOCATIONS
 
     modal: (e) ->
       $this = $(e.currentTarget)
