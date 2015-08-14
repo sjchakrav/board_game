@@ -32,10 +32,23 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         content:'<h1>CCRA:</h1><br><br><a href="http://intranet.rms.com/Documents/CCRA_Brochure_FINAL_2014.pdf#search=ccra">CCRA</a>
         '
       NewGrad: 
-        content:'<h1>New Grad Training:</h1><br><br><a href="#">Placeholder</a>
+        content:'<h1>New Grad Training:</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Workday-Tips-and-Resources.aspx">Workday Tips and Resources</a>
         '
 
-        #SECTION 3 LOCATIONS AND FACILITIES
+        #SECTION 3 VIDEOS/OTHER
+      Links:
+        content:
+      FAQ:
+        content:
+      Vids:
+        content:'<h1>Videos and Webinars:</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/Getting_Started_Courses/Intro_to_Insuarance/player.html">Insurance</a>
+        <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/Getting_Started_Courses/Introduction_to_Products_at_RMS/player.html">Products</a>
+        <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/Getting_Started_Courses/Introduction_to_Reinsurance/player.html">Reinsurance</a>
+        '
+      Oracle:
+        content:
+      CSR:
+        content:
 
 
     modal: (e) ->
