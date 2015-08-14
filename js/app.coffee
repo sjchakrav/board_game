@@ -8,7 +8,9 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
 </iframe>'
       PSF:
         content: '<h1>People Strategy Forms</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_W-4_Form_2012.pdf">W4 Forms</a><br><br>
-        <a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Benefits_Enrollment.pdf">Benefits Enrollment</a><br><br>'
+        <a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Benefits_Enrollment.pdf">Benefits Enrollment</a><br><br>
+        <br><br><a href="http://insiderms.rms.com/pages/forms.aspx">All Forms</a>
+        '
       BusinessCards:
         content: '<h1>Need New Business Cards?</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/Documents/RMS_OnDemand_Branded_Item_Request_Portal_Update.pdf">New Business Cards</a>
         '
@@ -34,11 +36,11 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
       NewGrad: 
         content:'<h1>New Grad Training:</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Workday-Tips-and-Resources.aspx">Workday Tips and Resources</a>
         '
-
         #SECTION 3 VIDEOS/OTHER
       Links:
-        content:'<h1>Links:</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Referrals.aspx">Employee Referral Page</a>
+        content:'<h1>Links and Social Media:</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Referrals.aspx">Employee Referral Page</a>
         <br><br><a href="http://www.rms.com/blog/">Blog</a>
+        <br><br><a href="https://www.facebook.com/pages/RMS/273309614416">RMS Facebook</a>
         '
       FAQ:
         content:'<h1>FAQ:</h1><br><br><a href="http://insiderms.rms.com/departments/IT/Pages/FAQs.aspx">IT FAQS</a>
@@ -56,7 +58,6 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         '
       CSR:
         content:''
-
         #SECTION 4 FACILITIES/LOCATIONS
       US:
         content:'<h1>USA Facilities:</h1><br><br><a href="http://insiderms.rms.com/departments/Hoboken/Pages/default.aspx">Hoboken, NJ</a>
@@ -70,6 +71,8 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         '
       Asia:
         content:'<h1>Asia/Pacific Facilities:</h1><br><br><a href="http://www.rms.com/about/newsroom/press-releases/press-detail/2014-06-10/rms-expands-presence-in-asia-pacific-with-new-singapore-office">Singapore</a>
+        <br><br><a href="http://insiderms.rms.com/departments/Newark/Pages/Getting-to-Know-RMS-Japan.aspx">Fun Facts about Japan</a>
+        <br><br><a href="http://insiderms.rms.com/departments/Newark/Pages/Noida-Fun-Facts.aspx">Fun Facts about Noida</a>
         '
       EE:
         content:'<h1>Employee Experience:</h1><br><br><a href="http://insiderms.rms.com/Pages/Employee-Experience.aspx">Engagement + Enablement = Employee Experience (EX)</a>
