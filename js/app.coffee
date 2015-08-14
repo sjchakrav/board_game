@@ -61,9 +61,8 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
       US:
         content:'<h1>USA Facilities:</h1><br><br><a href="http://insiderms.rms.com/departments/Hoboken/Pages/default.aspx">Hoboken, NJ</a>
         <br><br><a href="http://insiderms.rms.com/departments/Newark/Pages/Default.aspx">Newark, California</a>
-        <br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Benefit-Resources.aspx">Benefit Resources</a>
-        '
-      UK
+        <br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Benefit-Resources.aspx">Benefit Resources</a>'
+      UK:
         content:'<h1>UK Facilities:</h1><br><br><a href="http://insiderms.rms.com/departments/london/Pages/default.aspx">London</a>
         '
       India:
