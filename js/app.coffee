@@ -68,7 +68,7 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         <br><br><a href="oracle/">Oracle</a>
         '
       CSR:
-        content:''
+        content:'<h1>CSR</1><br><br><a href="http://insiderms.rms.com/departments/CorporateSocialResponsibility/Pages/default.aspx>Corporate Social Responsibility</a>'
         #SECTION 4 FACILITIES/LOCATIONS
       US:
         content:'<h1>USA Facilities:</h1><br><br><a href="http://insiderms.rms.com/departments/Hoboken/Pages/default.aspx">Hoboken, NJ</a>
