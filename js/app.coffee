@@ -9,7 +9,8 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
       PSF:
         content: '<h1>People Strategy Forms</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_W-4_Form_2012.pdf">W4 Forms</a><br><br>
         <a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Benefits_Enrollment.pdf">Benefits Enrollment</a><br><br>
-        <br><br><a href="http://insiderms.rms.com/pages/forms.aspx">All Forms</a>
+       <a href="http://insiderms.rms.com/pages/forms.aspx">All Forms</a>
+       <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_PTO_Request_Form.pdf">PTO Request Form</a>
         '
       BusinessCards:
         content: '<h1>Need New Business Cards?</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/Documents/RMS_OnDemand_Branded_Item_Request_Portal_Update.pdf">New Business Cards</a>
@@ -35,12 +36,16 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         '
       NewGrad: 
         content:'<h1>New Grad Training:</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Workday-Tips-and-Resources.aspx">Workday Tips and Resources</a>
+        <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/NHO_7.27.15.pdf">New Hire Orientation Slides</a>
         '
         #SECTION 3 VIDEOS/OTHER
       Links:
         content:'<h1>Links and Social Media:</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Referrals.aspx">Employee Referral Page</a>
         <br><br><a href="http://www.rms.com/blog/">Blog</a>
         <br><br><a href="https://www.facebook.com/pages/RMS/273309614416">RMS Facebook</a>
+        <br><br><a href="https://www.linkedin.com/company/rms">RMS LinkedIn</a>
+        <br><br><a href="https://twitter.com/rms">RMS Twitter</a>
+        <br><br><a href="https://twitter.com/rmsjobs">RMS Jobs Twitter</a>
         '
       FAQ:
         content:'<h1>FAQ:</h1><br><br><a href="http://insiderms.rms.com/departments/IT/Pages/FAQs.aspx">IT FAQS</a>
