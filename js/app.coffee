@@ -92,14 +92,35 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
           <h1>USA Facilities:</h1>
           <div style="text-align:left;">
            <h3 style="margin-top: 10px;">1. <a href="http://insiderms.rms.com/departments/Hoboken/Pages/default.aspx">Hoboken, NJ</a></h3>
-           <h4>Address & Phone Number:</h4>
+           <h4 style="margin-top: 5px;">Address & Phone Number:</h4>
            <p>121 River Street, 14th Floor
               Hoboken, NJ 07030
-              Tel: 1.201.912.8600
-              Fax: 1.201.912.8601</p>
+              <br>Tel: 1.201.912.8600
+              <br>Fax: 1.201.912.8601</p>
            <br><br>
-            <br><br><a href="http://insiderms.rms.com/departments/Newark/Pages/Default.aspx">Newark, California</a>
-            <br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Benefit-Resources.aspx">Benefit Resources</a>
+           <h3 style="margin-top: 10px;">2. <a href="http://insiderms.rms.com/departments/Newark/Pages/Getting-to-Know---RMS-Peoria.aspx">Peoria, IL</a></h3>
+           <h4 style="margin-top: 5px;">Address & Phone Number:</h4>
+           <p>621 SW Commercial
+              Suite D
+              Peoria, IL 61602
+              <br>Tel: 1.309.637.6350
+              <br>Fax: 1.309.637.6750</p>
+           <br><br>
+           <h3 style="margin-top: 10px;">3. <a href="http://insiderms.rms.com/departments/Newark/Pages/Getting-to-Know-RMS-Bloomington.aspx">Bloomington, MN</a></h3>
+           <h4 style="margin-top: 5px;">Address & Phone Number:</h4>
+           <p>7900 International Drive, Suite 625
+              Bloomington, MN 55425
+              <br>Tel: 1.952.876.4640
+              <br>Fax: 1.952.876.4655</p>
+           <br><br>
+           <h3 style="margin-top: 10px;">3. <a href="http://insiderms.rms.com/departments/Newark/Pages/Default.aspx">Newark, CA</a></h3>
+           <h4 style="margin-top: 5px;">Address & Phone Number:</h4>
+           <p>7575 Gateway Blvd.
+              Newark, CA 94560
+              <br>Tel: 1.510.505.2500
+              <br>Fax: 1.510.505.2501</p>
+           <br>
+            <br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Benefit-Resources.aspx">Benefit Resources</a>
           </div>
         </div>
         '
