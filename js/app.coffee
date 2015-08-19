@@ -5,7 +5,9 @@
       dayOneWelcome:
         content: '<h1>What do you know about RMS?</h1><br><center><iframe width="420" height="315"
 src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
-</iframe>'
+</iframe><br><br>
+Welcome to RMS!
+'
       PSF:
         content: '<h1>People Strategy Forms</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_W-4_Form_2012.pdf">W4 Forms</a><br><br>
         <a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Benefits_Enrollment.pdf">Benefits Enrollment</a><br><br>
