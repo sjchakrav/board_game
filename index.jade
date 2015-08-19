@@ -1,9 +1,10 @@
 html
   head
-    link(href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css', rel='stylesheet')
+    //- link(href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css', rel='stylesheet')
     link(rel='StyleSheet', href='style.css', type='text/css', media='screen')
     link(href='http://fonts.googleapis.com/css?family=Montserrat', rel='stylesheet', type='text/css')
     script(src='http://code.jquery.com/jquery-2.1.4.min.js')
+    
   body
     .app-container
       h1.title Life at RMS
@@ -13,14 +14,14 @@ html
           section.active.top(data-id='dayOneWelcome')
             .place Welcome
             <img class="fa" src="90 Days icons/welcome.png" height="70px">
-          section.top(data-id='PSF')
-            .place People Strategy Forms
+          section.top(data-id='FrequentlyReqInfo')
+            .place Frequently Requested Info
             <img class="fa" src="90 Days icons/people strategy forms.png" height="70px">
-          section.top(data-id="BusinessCards")
-            .place New Business Cards
+          section.top(data-id="RMSLife")
+            .place RMS & Life
             <img class="fa" src="90 Days icons/business cards.png" height="70px">
-          section.top(data-id="WritingStyleGuide")
-            .place Corporate Writing Style Guide
+          section.top(data-id="RMSStyleGuide")
+            .place RMS Style Guide
             <img class="fa" src="90 Days icons/writing guide.png" height="70px">
           section.no-dir.end.top(data-id="Acronyms")
             .place Acronyms 
@@ -35,7 +36,7 @@ html
               .place BOOKS 24X7
               <img class="fa" src="90 Days icons/book24x7.png" height="70px">
             section.right(data-id="CDToolkit")
-              .place C.D.TOOLKIT
+              .place Career Development Toolkit
               <img class="fa" src="90 Days icons/toolkit.png" height="70px">
             section.right(data-id="CCRA")
               .place CCRA
@@ -65,8 +66,8 @@ html
           section.bottom(data-id="US")
             .place US
             <img class="fa" src="90 Days icons/USA.png" height="70px">
-          section.bottom(data-id="UK")
-            .place UK
+          section.bottom(data-id="Europe")
+            .place Europe
             <img class="fa" src="90 Days icons/UK.png" height="70px">
           section.bottom(data-id="India")
             .place INDIA
@@ -77,6 +78,7 @@ html
           section.no-dir.end.bottom(data-id="EE")
             .place EMPLOYEE EXP
             <img class="fa" src="90 Days icons/employee exp.png" height="70px">
+
       .modal
-        .modal-content Hello! This is an awesome modal message.
+        .modal-content 
     script(src='js/app.js')

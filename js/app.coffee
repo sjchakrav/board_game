@@ -5,22 +5,32 @@
       dayOneWelcome:
         content: '<h1>What do you know about RMS?</h1><br><center><iframe width="420" height="315"
 src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
-</iframe>'
-      PSF:
-        content: '<h1>People Strategy Forms</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_W-4_Form_2012.pdf">W4 Forms</a><br><br>
-        <a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Benefits_Enrollment.pdf">Benefits Enrollment</a><br><br>
+</iframe><br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/RMS-Corporate-Holidays.aspx">RMS Corporate Holidays</a>'
+      FrequentlyReqInfo:
+        content: '
+        <h1>Frequently Requested Information</h1><br><br>
        <a href="http://insiderms.rms.com/pages/forms.aspx">All Forms</a>
        <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_PTO_Request_Form.pdf">PTO Request Form</a>
-       <br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/RMS-Corporate-Holidays.aspx">RMS Corporate Holidays</a>
-       <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Direct_Deposit_Form.pdf">Direct Deposit Form</a>
       <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_iPay_Quick_Guide.pdf">iPay Quick Guide</a>
         <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Newark_New_Badge_Form.pdf">PRC Badge Form</a>
         '
-      BusinessCards:
-        content: '<h1>Need New Business Cards?</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/Documents/RMS_OnDemand_Branded_Item_Request_Portal_Update.pdf">New Business Cards</a>
+      RMSLife:
+        content: '
+        <h1>Need New Business Cards?</h1>
+        <br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/FAQ.aspx">FAQ</a>
+        <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_W-4_Form_2012.pdf">W4 Forms</a>
+        <br><br><a href="http://insiderms.rms.com/departments/human-resources/Documents/RMS_OnDemand_Branded_Item_Request_Portal_Update.pdf">New Business Cards</a>
+        <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Benefits_Enrollment.pdf">Benefits Enrollment</a>
+        <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Direct_Deposit_Form.pdf">Direct Deposit Form</a>
+        
+        <div style="width: 50%;margin-left: 150px;margin-top:50px;"><h3><strong>Maternity Leave Info:</strong></h3><br>
+        <p>Ready your policy manual and contact your local benefits representative.</p></div>
         '
-      WritingStyleGuide:
-        content: '<h1>Corporate Writing Style Guide</h1><br><br><a href="http://insiderms.rms.com/departments/GoToMarket/Documents/Guides/Corporate%20Writing%20Style%20Guidelines.pdf">Writing Style Guide</a>
+      RMSStyleGuide:
+        content: '
+        <h1>Corporate Writing Style Guide</h1>
+        <br><br><a href="http://insiderms.rms.com/departments/GoToMarket/Documents/Guides/Corporate%20Writing%20Style%20Guidelines.pdf">Writing Style Guide</a>
+        <br><br><a href="http://insiderms.rms.com/departments/GoToMarket/Pages/marketing.aspx">PowerPoint Toolkit/Template & Logos</a>
         '
       Acronyms:
         content: '<h1>RMS Acronyms:<h1><br><br><a href="http://insiderms.rms.com/about-rms/Documents/Style%20Guide%20for%20Written%20Communications.pdf#search=acronyms">Full Acronyms List</a>
@@ -28,16 +38,24 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         '
         #SECTION 2 TRAINING
       LearningCenter:
-        content:'<h1>RMS Learning Center:</h1><br><br><a href="http://caitepsys1/learnsso">Learning Center</a>
+        content:'<h1>RMS Learning Center:</h1>
+        <br><br><p>Description: Your personal portal for self-development at RMS.  Log in today to complete required compliance classes, register for onsite instructor-led classes at your location, or access one of the more than ONE HUNDRED online, on-demand classes. </p>
+        <br><br><a href="http://caitepsys1/learnsso">Learning Center</a>
         '
       Books24x7:
-        content:'<h1>Books24x7:</h1><br><br><a href="http://www.books24x7.com/">Books24x7</a>
+        content:'<h1>Books24x7:</h1>
+        <br><br><p>Description: Books24x7® offers on-demand, instant access to the complete text of thousands of best-in-class online books, book summaries, audiobooks, research reports and best practices. Research leading practices, cut and paste content, and access via your mobile device.  Your login is your RMS email address, and the password is welcome</p>
+        <br><br><a href="http://www.books24x7.com/">Books24x7</a>
         '
       CDToolkit:
-        content:'<h1>Career Development Toolkit:</h1><br><br><a href="https://rms.okta.com/home/riskmanagementsolutionsinc_careerdevelopmenttoolkit_1/0oavmvt82iNDYGGKSMAF/22273?fromHome=true">Career Development Toolkit</a>
+        content:'<h1>Career Development Toolkit:</h1>
+        <br><br><p>Description: <br> This online tool will assist you in identifying your interests and values, enhancing your network, help increase your self-knowledge about your career potential. Use it to make a plan and strategy for your future. </p>
+        <br><br><a href="https://rms.okta.com/home/riskmanagementsolutionsinc_careerdevelopmenttoolkit_1/0oavmvt82iNDYGGKSMAF/22273?fromHome=true">Career Development Toolkit</a>
         '
       CCRA:
-        content:'<h1>CCRA:</h1><br><br><a href="http://intranet.rms.com/Documents/CCRA_Brochure_FINAL_2014.pdf#search=ccra">CCRA</a>
+        content:'<h1>CCRA:</h1>
+        <br><br><p> Description: The RMS CCRA® (Certified Catastrophe Risk Analyst) Training Program was initiated in 2005 as a comprehensive training program designed to "fast track" intermediate catastrophe analysts to an advanced understanding of cat models and modeled loss estimates. The program provides a solid foundation of core concepts that are essential for interpreting and applying loss estimates, and teaches participants to think critically about assumptions that affect modeled loss results. </p>
+        <br><br><a href="http://intranet.rms.com/Documents/CCRA_Brochure_FINAL_2014.pdf#search=ccra">CCRA</a>
         '
       NewGrad: 
         content:'<h1>New Grad Training:</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Workday-Tips-and-Resources.aspx">Workday Tips and Resources</a>
@@ -71,19 +89,34 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         content:'<h1>CSR</1><br><br><a href="http://insiderms.rms.com/departments/CorporateSocialResponsibility/Pages/default.aspx>Corporate Social Responsibility</a>'
         #SECTION 4 FACILITIES/LOCATIONS
       US:
-        content:'<h1>USA Facilities:</h1><br><br><a href="http://insiderms.rms.com/departments/Hoboken/Pages/default.aspx">Hoboken, NJ</a>
-        <br><br><a href="http://insiderms.rms.com/departments/Newark/Pages/Default.aspx">Newark, California</a>
-        <br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Benefit-Resources.aspx">Benefit Resources</a>'
-      UK:
+        content:'
+        <div>
+          <h1>USA Facilities:</h1>
+          <div style="text-align:left;">
+           <h3 style="margin-top: 10px;">1. <a href="http://insiderms.rms.com/departments/Hoboken/Pages/default.aspx">Hoboken, NJ</a></h3>
+           <h4>Address & Phone Number:</h4>
+           <p>121 River Street, 14th Floor
+              Hoboken, NJ 07030
+              Tel: 1.201.912.8600
+              Fax: 1.201.912.8601</p>
+           <br><br>
+            <br><br><a href="http://insiderms.rms.com/departments/Newark/Pages/Default.aspx">Newark, California</a>
+            <br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Benefit-Resources.aspx">Benefit Resources</a>
+          </div>
+        </div>
+        '
+      Europe:
         content:'<h1>UK Facilities:</h1><br><br><a href="http://insiderms.rms.com/departments/london/Pages/default.aspx">London</a>
         '
       India:
-        content:'<h1>India Facilities:</h1><br><br><a href="http://insiderms.rms.com/departments/India/Pages/default.aspx">India</a>
+        content:'
+        <h1>India Facilities:</h1><br><br><a href="http://insiderms.rms.com/departments/India/Pages/default.aspx">Fun Facts about India</a>
+        <br><br><a href="http://insiderms.rms.com/departments/Newark/Pages/Noida-Fun-Facts.aspx">Fun Facts about Noida</a>
         '
       Asia:
-        content:'<h1>Asia/Pacific Facilities:</h1><br><br><a href="http://www.rms.com/about/newsroom/press-releases/press-detail/2014-06-10/rms-expands-presence-in-asia-pacific-with-new-singapore-office">Singapore</a>
+        content:'<h1>Asia/Pacific Facilities:</h1><br><br><a href="http://www.rms.com/about/newsroom/press-releases/press-detail/2014-06-10/rms-expands-presence-in-asia-pacific-with-new-singapore-office">Fun Facts about Singapore</a>
         <br><br><a href="http://insiderms.rms.com/departments/Newark/Pages/Getting-to-Know-RMS-Japan.aspx">Fun Facts about Japan</a>
-        <br><br><a href="http://insiderms.rms.com/departments/Newark/Pages/Noida-Fun-Facts.aspx">Fun Facts about Noida</a>
+        <br><br><a href="http://insiderms.rms.com/departments/Newark/Pages/Getting-to-Know-RMS-China.aspx">Fun Facts about China</a>
         '
       EE:
         content:'<h1>Employee Experience:</h1><br><br><a href="http://insiderms.rms.com/Pages/Employee-Experience.aspx">Engagement + Enablement = Employee Experience (EX)</a>
