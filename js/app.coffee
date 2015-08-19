@@ -9,6 +9,12 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
       FrequentlyReqInfo:
         content: '
         <h1>Frequently Requested Information</h1><br><br>
+</iframe><br><br>
+Welcome to RMS!
+'
+      PSF:
+        content: '<h1>People Strategy Forms</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_W-4_Form_2012.pdf">W4 Forms</a><br><br>
+        <a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Benefits_Enrollment.pdf">Benefits Enrollment</a><br><br>
        <a href="http://insiderms.rms.com/pages/forms.aspx">All Forms</a>
        <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_PTO_Request_Form.pdf">PTO Request Form</a>
       <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_iPay_Quick_Guide.pdf">iPay Quick Guide</a>
@@ -36,7 +42,6 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         content: '<h1>RMS Acronyms:<h1><br><br><a href="http://insiderms.rms.com/about-rms/Documents/Style%20Guide%20for%20Written%20Communications.pdf#search=acronyms">Full Acronyms List</a>
         <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/Global_EAP_and_Platform_Glossary.pdf">RMS Platform Glossary and Library of Acronyms</a>
         '
-        #SECTION 2 TRAINING
       LearningCenter:
         content:'<h1>RMS Learning Center:</h1>
         <br><br><p>Description: Your personal portal for self-development at RMS.  Log in today to complete required compliance classes, register for onsite instructor-led classes at your location, or access one of the more than ONE HUNDRED online, on-demand classes. </p>
@@ -61,7 +66,6 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         content:'<h1>New Grad Training:</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Workday-Tips-and-Resources.aspx">Workday Tips and Resources</a>
         <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/NHO_7.27.15.pdf">New Hire Orientation Slides</a>
         '
-        #SECTION 3 VIDEOS/OTHER
       Links:
         content:'<h1>Links and Social Media:</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Referrals.aspx">Employee Referral Page</a>
         <br><br><a href="http://www.rms.com/blog/">Blog</a>
@@ -86,8 +90,8 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         <br><br><a href="oracle/">Oracle</a>
         '
       CSR:
-        content:'<h1>CSR</1><br><br><a href="http://insiderms.rms.com/departments/CorporateSocialResponsibility/Pages/default.aspx>Corporate Social Responsibility</a>'
-        #SECTION 4 FACILITIES/LOCATIONS
+        content:'<h1>CSR</h1><br><br><a href="http://insiderms.rms.com/departments/CorporateSocialResponsibility/Pages/default.aspx">Corporate Social Responsibility</a>'
+
       US:
         content:'
         <div>
