@@ -16,6 +16,8 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Newark_New_Badge_Form.pdf">PRC Badge Form</a>
         <br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/FAQ.aspx">FAQ</a>
         <br><br><a href="http://insiderms.rms.com/about-rms/Pages/Locations.aspx">All Locations and Facilities</a>
+        <br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Workday-Tips-and-Resources.aspx">Workday Tips and Resources</a>
+        <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/NHO_7.27.15.pdf">New Hire Orientation Slides</a>
         '
       RMSLife:
         content: '
@@ -78,10 +80,6 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
       NewGrad: 
         content:'
         <h1>New Grad Training:</h1>
-        <div style="text-align:left;">
-          <br><br>1. <a href="http://insiderms.rms.com/departments/human-resources/Pages/Workday-Tips-and-Resources.aspx">Workday Tips and Resources</a>
-          <br><br>2. <a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/NHO_7.27.15.pdf">New Hire Orientation Slides</a>
-        </div>
         '
       Links:
         content:'<h1>Links and Social Media:</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Referrals.aspx">Employee Referral Page</a>
