@@ -79,7 +79,7 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         '
       NewGrad: 
         content:'
-        <h1>New Grad Training:</h1>
+        <h1>New Grad Training:</h1><br><br><a href="http://intranet.rms.com/Pages/New-Grad_Technical-Training.aspx">New Grad Technical Training</a>
         '
       Links:
         content:'<h1>Links and Social Media:</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Referrals.aspx">Employee Referral Page</a>
