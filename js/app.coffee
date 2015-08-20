@@ -5,9 +5,9 @@
       dayOneWelcome:
         content: '<h1>What do you know about RMS?</h1><br><center><iframe width="420" height="315"
 src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
-</iframe><br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/RMS-Corporate-Holidays.aspx">RMS Corporate Holidays</a>'
+</iframe><br><br><p>Click <a href="http://insiderms.rms.com/departments/human-resources/Pages/RMS-Corporate-Holidays.aspx">here</a> for all RMS Corporate Holidays.</p>'
       FrequentlyReqInfo:
-        content: '<h1>Frequently Requested Information<</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_W-4_Form_2012.pdf">W4 Forms</a><br><br>
+        content: '<h1>Frequently Requested Information</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_W-4_Form_2012.pdf">W4 Forms</a><br><br>
         <a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Benefits_Enrollment.pdf">Benefits Enrollment</a><br><br>
        <a href="http://insiderms.rms.com/pages/forms.aspx">All Forms</a>
        <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_PTO_Request_Form.pdf">PTO Request Form</a>
@@ -69,8 +69,10 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         <br><br><a href="https://twitter.com/rmsjobs">RMS Jobs Twitter</a>
         <br><br><a href="http://insiderms.rms.com/about-rms/Pages/Locations.aspx">All Locations</a>
         '
-      FAQ:
-        content:'<h1>FAQ:</h1><br><br><a href="http://insiderms.rms.com/departments/IT/Pages/FAQs.aspx">IT FAQS</a>
+      IT:
+        content:'<h1>IT:</h1><br><br><a href="http://insiderms.rms.com/departments/IT/Pages/FAQs.aspx">IT FAQS</a>
+        <br><br><a href="http://insiderms.rms.com/departments/IT/Pages/How-to-Guides-Home.aspx">How to Guides</a>
+        <br><br><a href="http://insiderms.rms.com/departments/IT/Pages/New-Hire-Services.aspx">Overview of IT Services for New Hire</a>
         '
       Vids:
         content:'<h1>Videos and Webinars:</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/Getting_Started_Courses/Intro_to_Insuarance/player.html">Insurance</a>
