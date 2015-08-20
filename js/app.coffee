@@ -5,7 +5,7 @@
       dayOneWelcome:
         content: '<h1>What do you know about RMS?</h1><br><center><iframe width="420" height="315"
 src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
-</iframe><br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/RMS-Corporate-Holidays.aspx">Click here for all RMS Corporate Holidays</a>'
+</iframe><br><br><p>Click <a href="http://insiderms.rms.com/departments/human-resources/Pages/RMS-Corporate-Holidays.aspx">here</a> for all RMS Corporate Holidays.</p>'
       FrequentlyReqInfo:
         content: '<h1>Frequently Requested Information</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_W-4_Form_2012.pdf">W4 Forms</a><br><br>
         <a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Benefits_Enrollment.pdf">Benefits Enrollment</a><br><br>
