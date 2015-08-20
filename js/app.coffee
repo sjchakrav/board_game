@@ -7,7 +7,8 @@
 src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
 </iframe><br><br><p>Click <a href="http://insiderms.rms.com/departments/human-resources/Pages/RMS-Corporate-Holidays.aspx">here</a> for all RMS Corporate Holidays.</p>'
       FrequentlyReqInfo:
-        content: '<h1>Frequently Requested Information</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_W-4_Form_2012.pdf">W4 Forms</a><br><br>
+        content: '<h1>Frequently Requested Information</h1><br><br>
+        <a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_W-4_Form_2012.pdf">W4 Forms</a><br><br>
         <a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Benefits_Enrollment.pdf">Benefits Enrollment</a><br><br>
        <a href="http://insiderms.rms.com/pages/forms.aspx">All Forms</a>
        <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_PTO_Request_Form.pdf">PTO Request Form</a>
@@ -18,20 +19,19 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         '
       RMSLife:
         content: '
-        <h1>Need New Business Cards?</h1>
+        <h1>RMS and Life:</h1>
         <br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/FAQ.aspx">FAQ</a>
         <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_W-4_Form_2012.pdf">W4 Forms</a>
         <br><br><a href="http://insiderms.rms.com/departments/human-resources/Documents/RMS_OnDemand_Branded_Item_Request_Portal_Update.pdf">New Business Cards</a>
         <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Benefits_Enrollment.pdf">Benefits Enrollment</a>
         <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Direct_Deposit_Form.pdf">Direct Deposit Form</a>
-        
-        <div style="width: 50%;margin-left: 150px;margin-top:50px;"><h3><strong>Maternity Leave Info:</strong></h3><br>
-        <p>Ready your policy manual and contact your local benefits representative.</p></div>
+        <div style="width: 50%;margin-left: 150px;margin-top:50px;"><h3><strong>Maternity Leave Info:</strong></h3>
+        <p>Read your policy manual and contact your local benefits representative.</p></div>
         '
       RMSStyleGuide:
         content: '
-        <h1>Corporate Writing Style Guide</h1>
-        <br><br><a href="http://insiderms.rms.com/departments/GoToMarket/Documents/Guides/Corporate%20Writing%20Style%20Guidelines.pdf">Writing Style Guide</a>
+        <h1>RMS Style Guide</h1>
+        <br><br><a href="http://insiderms.rms.com/departments/GoToMarket/Documents/Guides/Corporate%20Writing%20Style%20Guidelines.pdf">Corporate Writing Style Guide</a>
         <br><br><a href="http://insiderms.rms.com/departments/GoToMarket/Pages/marketing.aspx">PowerPoint Toolkit/Template & Logos</a>
         '
       Acronyms:
