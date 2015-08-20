@@ -164,14 +164,54 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         '
       India:
         content:'
-        <h1>India Facilities:</h1><br><br><a href="http://insiderms.rms.com/departments/India/Pages/default.aspx">Fun Facts about India</a>
-        <br><br><a href="http://insiderms.rms.com/departments/Newark/Pages/Noida-Fun-Facts.aspx">Fun Facts about Noida</a>
+         <div>
+          <h1>India Facilities:</h1>
+          <div style="text-align:left;">
+           <h3 style="margin-top: 10px;">1. <a href="http://insiderms.rms.com/departments/london/Pages/default.aspx">Noida, India</a></h3>
+           <h4 style="margin-top: 5px;">Address & Phone Number:</h4>
+           <p>A-7 Sector 16
+              Noida 201 301 India
+              <br>Tel: 91 120 388 7000
+              <br>Fax: 91 120 387 100</p>
+            <br><br><a href="http://insiderms.rms.com/departments/India/Pages/default.aspx">Fun Facts about India</a>
+           <br><br><a href="http://insiderms.rms.com/departments/Newark/Pages/Noida-Fun-Facts.aspx">Fun Facts about Noida</a>
+          </div>
+        </div>
         '
       Asia:
-        content:'<h1>Asia/Pacific Facilities:</h1><br><br><a href="http://www.rms.com/about/newsroom/press-releases/press-detail/2014-06-10/rms-expands-presence-in-asia-pacific-with-new-singapore-office">Fun Facts about Singapore</a>
-        <br><br><a href="http://insiderms.rms.com/departments/Newark/Pages/Getting-to-Know-RMS-Japan.aspx">Fun Facts about Japan</a>
-        <br><br><a href="http://insiderms.rms.com/departments/Newark/Pages/Getting-to-Know-RMS-China.aspx">Fun Facts about China</a>
-        '
+        content:'
+         <div>
+          <h1>Asia/Pacific Facilities:</h1>
+          <div style="text-align:left;">
+           <h3 style="margin-top: 10px;">1. <a href="">Beijing, China</a></h3>
+           <h4 style="margin-top: 5px;">Address & Phone Number:</h4>
+           <p>208-11 Winland Intl. Finance Center
+              7 Financial Street, Xicheng District
+              Beijing, China 100014
+              <br>Tel: 86.10.5833.2255
+              <br>Fax: 86.10.5833.2388
+              </p>
+           <br><br>
+           <h3 style="margin-top: 10px;">2. <a href="http://www.rms.com/about/newsroom/press-releases/press-detail/2014-06-10/rms-expands-presence-in-asia-pacific-with-new-singapore-office">Singapore</a></h3>
+           <h4 style="margin-top: 5px;">Address & Phone Number:</h4>
+           <p>The Quadrant @ Cecil, #03-01,
+              19 Cecil Street,
+              Singapore 049704
+              <br>Tel: 65.6422.1478
+              </p>
+           <br><br>
+           <h3 style="margin-top: 10px;">3. <a href="http://insiderms.rms.com/departments/Newark/Pages/Getting-to-Know-RMS-Japan.aspx">Tokyo, Japan</a></h3>
+           <h4 style="margin-top: 5px;">Address & Phone Number:</h4>
+           <p>Sanno Park Tower, 4th Floor,
+              11-1 Nagatacho 2-Chome,
+              Chiyoda-ku, Tokyo
+              100-6104, Japan
+              <br>Tel: 81.3.3539.2123
+              <br>Fax: 81.3.5521.0010</p>
+          </div>
+        </div>
+
+        ' 
       EE:
         content:'<h1>Employee Experience:</h1><br><br><a href="http://insiderms.rms.com/Pages/Employee-Experience.aspx">Engagement + Enablement = Employee Experience (EX)</a>
         '
