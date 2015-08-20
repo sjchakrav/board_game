@@ -13,6 +13,8 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
        <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_PTO_Request_Form.pdf">PTO Request Form</a>
       <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_iPay_Quick_Guide.pdf">iPay Quick Guide</a>
         <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Newark_New_Badge_Form.pdf">PRC Badge Form</a>
+        <br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/FAQ.aspx">FAQ</a>
+        <br><br><a href="http://insiderms.rms.com/about-rms/Pages/Locations.aspx">All Locations and Facilities</a>
         '
       RMSLife:
         content: '
