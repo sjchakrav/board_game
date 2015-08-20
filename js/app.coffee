@@ -114,35 +114,43 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         <div>
           <h1>USA Facilities:</h1>
           <div style="text-align:left;">
-           <h3 style="margin-top: 10px;">1. <a href="http://insiderms.rms.com/departments/Hoboken/Pages/default.aspx">Hoboken, NJ</a></h3>
+           <h3 style="margin-top: 5px;">1. <a href="http://insiderms.rms.com/departments/Hoboken/Pages/default.aspx">Hoboken, NJ</a></h3>
            <h4 style="margin-top: 5px;">Address & Phone Number:</h4>
            <p>121 River Street, 14th Floor
               Hoboken, NJ 07030
               <br>Tel: 1.201.912.8600
               <br>Fax: 1.201.912.8601</p>
-           <br><br>
-           <h3 style="margin-top: 10px;">2. <a href="http://insiderms.rms.com/departments/Newark/Pages/Getting-to-Know---RMS-Peoria.aspx">Peoria, IL</a></h3>
-           <h4 style="margin-top: 5px;">Address & Phone Number:</h4>
+           <br>
+           <h3 style="margin-top: 2px;">2. <a href="http://insiderms.rms.com/departments/Newark/Pages/Getting-to-Know---RMS-Peoria.aspx">Peoria, IL</a></h3>
+           <h4 style="margin-top: 2px;">Address & Phone Number:</h4>
            <p>621 SW Commercial
               Suite D
               Peoria, IL 61602
               <br>Tel: 1.309.637.6350
               <br>Fax: 1.309.637.6750</p>
-           <br><br>
-           <h3 style="margin-top: 10px;">3. <a href="http://insiderms.rms.com/departments/Newark/Pages/Getting-to-Know-RMS-Bloomington.aspx">Bloomington, MN</a></h3>
-           <h4 style="margin-top: 5px;">Address & Phone Number:</h4>
+           <br>
+           <h3 style="margin-top: 2px;">3. <a href="http://insiderms.rms.com/departments/Newark/Pages/Getting-to-Know-RMS-Bloomington.aspx">Bloomington, MN</a></h3>
+           <h4 style="margin-top: 2px;">Address & Phone Number:</h4>
            <p>7900 International Drive, Suite 625
               Bloomington, MN 55425
               <br>Tel: 1.952.876.4640
               <br>Fax: 1.952.876.4655</p>
-           <br><br>
-           <h3 style="margin-top: 10px;">3. <a href="http://insiderms.rms.com/departments/Newark/Pages/Default.aspx">Newark, CA</a></h3>
-           <h4 style="margin-top: 5px;">Address & Phone Number:</h4>
+           <br>
+           <h3 style="margin-top: 2px;">4. <a href="http://insiderms.rms.com/departments/Newark/Pages/Default.aspx">Newark, CA</a></h3>
+           <h4 style="margin-top: 2px;">Address & Phone Number:</h4>
            <p>7575 Gateway Blvd.
               Newark, CA 94560
               <br>Tel: 1.510.505.2500
               <br>Fax: 1.510.505.2501</p>
            <br>
+          <h3 style="margin-top: 2px;">5. <a href="http://intranet.rms.com/Pages/Getting-to-Know-RMS-Bermuda.aspx">Bermuda</a></h3>
+           <h4 style="margin-top: 2px;">Address & Phone Number:</h4>
+           <p>O Hara House
+              One Bermudiana Road
+              Tower 2, 3rd Floor
+              Hamilton BH 08, Bermuda
+              <br>Tel: 1.441.278.8800
+              <br>Fax: 1.441.278.8801</p>
             <br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Benefit-Resources.aspx">Benefit Resources</a>
           </div>
         </div>
@@ -160,16 +168,8 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
               <br>Tel: 44.20.7444.7600
               <br>Fax: 44.20.7444.7601</p>
            <br><br>
-           <h3 style="margin-top: 10px;">2. <a href="http://intranet.rms.com/Pages/Getting-to-Know-RMS-Bermuda.aspx">Bermuda</a></h3>
-           <h4 style="margin-top: 5px;">Address & Phone Number:</h4>
-           <p>O Hara House
-              One Bermudiana Road
-              Tower 2, 3rd Floor
-              Hamilton BH 08, Bermuda
-              <br>Tel: 1.441.278.8800
-              <br>Fax: 1.441.278.8801</p>
-           <br><br>
-           <h3 style="margin-top: 10px;">3. <a href="http://insiderms.rms.com/departments/Zurich/Pages/default.aspx">Zürich,CH</a></h3>
+  
+           <h3 style="margin-top: 5px;">2. <a href="http://insiderms.rms.com/departments/Zurich/Pages/default.aspx">Zürich,CH</a></h3>
            <h4 style="margin-top: 5px;">Address & Phone Number:</h4>
            <p>Zweigniederlassung Zürich,
               Stampfenbachstrasse 85,
