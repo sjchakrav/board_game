@@ -129,7 +129,38 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         </div>
         '
       Europe:
-        content:'<h1>UK Facilities:</h1><br><br><a href="http://insiderms.rms.com/departments/london/Pages/default.aspx">London</a>
+        content:'
+          <div>
+          <h1>Europe Facilities:</h1>
+          <div style="text-align:left;">
+           <h3 style="margin-top: 10px;">1. <a href="http://insiderms.rms.com/departments/london/Pages/default.aspx">London, UK</a></h3>
+           <h4 style="margin-top: 5px;">Address & Phone Number:</h4>
+           <p>Peninsular House
+              30 Monument Street
+              London EC3R 8NB UK
+              <br>Tel: 44.20.7444.7600
+              <br>Fax: 44.20.7444.7601</p>
+           <br><br>
+           <h3 style="margin-top: 10px;">2. <a href="http://intranet.rms.com/Pages/Getting-to-Know-RMS-Bermuda.aspx">Bermuda</a></h3>
+           <h4 style="margin-top: 5px;">Address & Phone Number:</h4>
+           <p>O Hara House
+              One Bermudiana Road
+              Tower 2, 3rd Floor
+              Hamilton BH 08, Bermuda
+              <br>Tel: 1.441.278.8800
+              <br>Fax: 1.441.278.8801</p>
+           <br><br>
+           <h3 style="margin-top: 10px;">3. <a href="http://insiderms.rms.com/departments/Zurich/Pages/default.aspx">Zürich,CH</a></h3>
+           <h4 style="margin-top: 5px;">Address & Phone Number:</h4>
+           <p>Zweigniederlassung Zürich,
+              Stampfenbachstrasse 85,
+              CH-8006 Zurich
+              Switzerland
+              <br>Tel: 41.44.365.1500
+              <br>Fax: 41.44.365.1501</p>
+           <br><br>
+          </div>
+        </div>
         '
       India:
         content:'
