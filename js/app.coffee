@@ -212,9 +212,9 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         </div>
 
         ' 
-      EE:
-        content:'<h1>Employee Experience:</h1><br><br><a href="http://insiderms.rms.com/Pages/Employee-Experience.aspx">Engagement + Enablement = Employee Experience (EX)</a>
-        '
+      # EE:
+      #   content:'<h1>Employee Experience:</h1><br><br><a href="http://insiderms.rms.com/Pages/Employee-Experience.aspx">Engagement + Enablement = Employee Experience (EX)</a>
+      #   '
 
     modal: (e) ->
       $this = $(e.currentTarget)
