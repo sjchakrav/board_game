@@ -20,13 +20,15 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
       RMSLife:
         content: '
         <h1>RMS and Life:</h1>
-        <br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/FAQ.aspx">FAQ</a>
-        <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_W-4_Form_2012.pdf">W4 Forms</a>
-        <br><br><a href="http://insiderms.rms.com/departments/human-resources/Documents/RMS_OnDemand_Branded_Item_Request_Portal_Update.pdf">New Business Cards</a>
-        <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Benefits_Enrollment.pdf">Benefits Enrollment</a>
-        <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Direct_Deposit_Form.pdf">Direct Deposit Form</a>
-        <div style="width: 50%;margin-left: 150px;margin-top:50px;"><h3><strong>Maternity Leave Info:</strong></h3>
-        <p>Read your policy manual and contact your local benefits representative.</p></div>
+        <div style="text-align: left;">
+          <br><br>1. <a href="http://insiderms.rms.com/departments/human-resources/Pages/FAQ.aspx">FAQ</a>
+          <br><br>2. <a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_W-4_Form_2012.pdf">W4 Forms</a>
+          <br><br>3. <a href="http://insiderms.rms.com/departments/human-resources/Documents/RMS_OnDemand_Branded_Item_Request_Portal_Update.pdf">New Business Cards</a>
+          <br><br>4. <a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Benefits_Enrollment.pdf">Benefits Enrollment</a>
+          <br><br>5. <a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/US_Direct_Deposit_Form.pdf">Direct Deposit Form</a>
+          <br><br><h3><strong>Maternity Leave Info:</strong></h3>
+          <br><p>Read your policy manual and contact your local benefits representative.</p>
+        </div>
         '
       RMSStyleGuide:
         content: '
@@ -39,28 +41,47 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/Global_EAP_and_Platform_Glossary.pdf">RMS Platform Glossary and Library of Acronyms</a>
         '
       LearningCenter:
-        content:'<h1>RMS Learning Center:</h1>
-        <br><br><p>Description: Your personal portal for self-development at RMS.  Log in today to complete required compliance classes, register for onsite instructor-led classes at your location, or access one of the more than ONE HUNDRED online, on-demand classes. </p>
-        <br><br><a href="http://caitepsys1/learnsso">Learning Center</a>
+        content:'
+        <h1>RMS Learning Center:</h1>
+        <div style="text-align:left;">
+          <br><br><h3>Description:</h3>
+          <br><p>Your personal portal for self-development at RMS.  Log in today to complete required compliance classes, register for onsite instructor-led classes at your location, or access one of the more than ONE HUNDRED online, on-demand classes. </p>
+          <br><br><a href="http://caitepsys1/learnsso">Learning Center</a>
+        </div>
         '
       Books24x7:
-        content:'<h1>Books24x7:</h1>
-        <br><br><p>Description: Books24x7® offers on-demand, instant access to the complete text of thousands of best-in-class online books, book summaries, audiobooks, research reports and best practices. Research leading practices, cut and paste content, and access via your mobile device.  Your login is your RMS email address, and the password is welcome</p>
-        <br><br><a href="http://www.books24x7.com/">Books24x7</a>
+        content:'
+        <h1>Books24x7:</h1>
+        <div style="text-align:left;">
+          <br><br><p>Description: 
+          <br><br>Books24x7® offers on-demand, instant access to the complete text of thousands of best-in-class online books, book summaries, audiobooks, research reports and best practices. Research leading practices, cut and paste content, and access via your mobile device.  Your login is your RMS email address, and the password is welcome</p>
+          <br><br><a href="http://www.books24x7.com/">Books24x7</a>
+        </div>
         '
       CDToolkit:
-        content:'<h1>Career Development Toolkit:</h1>
-        <br><br><p>Description: <br> This online tool will assist you in identifying your interests and values, enhancing your network, help increase your self-knowledge about your career potential. Use it to make a plan and strategy for your future. </p>
-        <br><br><a href="https://rms.okta.com/home/riskmanagementsolutionsinc_careerdevelopmenttoolkit_1/0oavmvt82iNDYGGKSMAF/22273?fromHome=true">Career Development Toolkit</a>
+        content:'
+        <h1>Career Development Toolkit:</h1>
+        <div style="text-align:left;">
+          <br><br><p>Description: <br><br> This online tool will assist you in identifying your interests and values, enhancing your network, help increase your self-knowledge about your career potential. Use it to make a plan and strategy for your future. </p>
+          <br><br><a href="https://rms.okta.com/home/riskmanagementsolutionsinc_careerdevelopmenttoolkit_1/0oavmvt82iNDYGGKSMAF/22273?fromHome=true">Career Development Toolkit</a>
+        </div>
         '
       CCRA:
-        content:'<h1>CCRA:</h1>
-        <br><br><p> Description: The RMS CCRA® (Certified Catastrophe Risk Analyst) Training Program was initiated in 2005 as a comprehensive training program designed to "fast track" intermediate catastrophe analysts to an advanced understanding of cat models and modeled loss estimates. The program provides a solid foundation of core concepts that are essential for interpreting and applying loss estimates, and teaches participants to think critically about assumptions that affect modeled loss results. </p>
-        <br><br><a href="http://intranet.rms.com/Documents/CCRA_Brochure_FINAL_2014.pdf#search=ccra">CCRA</a>
+        content:'
+        <h1>CCRA:</h1>
+        <div style="text-align:left;">
+          <br><br><p> Description: 
+          <br><br>The RMS CCRA® (Certified Catastrophe Risk Analyst) Training Program was initiated in 2005 as a comprehensive training program designed to "fast track" intermediate catastrophe analysts to an advanced understanding of cat models and modeled loss estimates. The program provides a solid foundation of core concepts that are essential for interpreting and applying loss estimates, and teaches participants to think critically about assumptions that affect modeled loss results. </p>
+          <br><br><a href="http://intranet.rms.com/Documents/CCRA_Brochure_FINAL_2014.pdf#search=ccra">CCRA</a>
+        </div>
         '
       NewGrad: 
-        content:'<h1>New Grad Training:</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Workday-Tips-and-Resources.aspx">Workday Tips and Resources</a>
-        <br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/NHO_7.27.15.pdf">New Hire Orientation Slides</a>
+        content:'
+        <h1>New Grad Training:</h1>
+        <div style="text-align:left;">
+          <br><br>1. <a href="http://insiderms.rms.com/departments/human-resources/Pages/Workday-Tips-and-Resources.aspx">Workday Tips and Resources</a>
+          <br><br>2. <a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/NHO_7.27.15.pdf">New Hire Orientation Slides</a>
+        </div>
         '
       Links:
         content:'<h1>Links and Social Media:</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/Pages/Referrals.aspx">Employee Referral Page</a>
