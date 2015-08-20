@@ -71,6 +71,8 @@ src="http://www.youtube.com/embed/JS_DjKsx7dU?"></center>
         '
       IT:
         content:'<h1>IT:</h1><br><br><a href="http://insiderms.rms.com/departments/IT/Pages/FAQs.aspx">IT FAQS</a>
+        <br><br><a href="http://insiderms.rms.com/departments/IT/Pages/How-to-Guides-Home.aspx">How to Guides</a>
+        <br><br><a href="http://insiderms.rms.com/departments/IT/Pages/New-Hire-Services.aspx">Overview of IT Services for New Hire</a>
         '
       Vids:
         content:'<h1>Videos and Webinars:</h1><br><br><a href="http://insiderms.rms.com/departments/human-resources/HR%20Documents/Getting_Started_Courses/Intro_to_Insuarance/player.html">Insurance</a>
